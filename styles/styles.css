@@ -232,6 +232,111 @@ select {
   margin-top: 60px;
 }
 
+/* ------Choose Your Destination------- */
+
+.choose-your-destination {
+  margin: 90px 0;
+}
+.destination-1,
+.destination-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.destination-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.box-1 {
+  height: 300px;
+  position: relative;
+}
+
+.Bangladesh {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.box-2 {
+  height: 300px;
+  position: relative;
+}
+.Indonesia {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.box-3 {
+  height: 300px;
+  position: relative;
+}
+.Srilanka {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.box-4 {
+  height: 300px;
+  position: relative;
+}
+.North-america {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.box-5 {
+  height: 300px;
+  position: relative;
+}
+.Kashmir {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.box-6 {
+  height: 300px;
+  position: relative;
+}
+.Maldives {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.box-7 {
+  height: 300px;
+  position: relative;
+}
+.Bandarban {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.box-1 img,
+.box-2 img,
+.box-3 img,
+.box-4 img,
+.box-5 img,
+.box-6 img,
+.box-7 img {
+  width: fit-content;
+}
+
+.Bangladesh,
+.Indonesia,
+.Srilanka,
+.North-america,
+.Kashmir,
+.Maldives,
+.Bandarban{
+  color: var(--secondary-color);
+  font-size: 28px;
+  font-weight: 800;
+}
 /* Newsletter styles */
 .newsletter {
   display: flex;

@@ -22,11 +22,12 @@
     height: 52px;
   }
   /* -------popular-tour section------- */
-  .popular-tour, 
+  .popular-tour,
   .newsletter {
     flex-direction: column;
   }
-  .popular-tour-img img, .newsletter-img img {
+  .popular-tour-img img,
+  .newsletter-img img {
     width: 100%;
   }
 
@@ -37,10 +38,14 @@
       " location  location  location location "
       " price  price price price ";
   }
-
-  .choose-us-content{
+  .choose-us-content {
     max-width: 90%;
     margin: 0 auto;
+  }
+  /* ----footer styles----- */
+
+  .footer-info{
+    width: 85%;
 }
 }
 
@@ -66,7 +71,7 @@
     height: 52px;
   }
   /* --------popular-tour section------ */
-  .popular-tour, 
+  .popular-tour,
   .newsletter {
     flex-direction: column;
   }
@@ -74,5 +79,4 @@
   .newsletter-img img {
     width: 100%;
   }
-  
 }

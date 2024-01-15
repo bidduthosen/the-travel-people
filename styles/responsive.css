@@ -28,6 +28,19 @@
   .popular-tour-img img {
     width: 100%;
   }
+
+  /* choose us section */
+  .choose-us {
+    grid-template-areas:
+      " hotel  hotel  hotel hotel "
+      " location  location  location location "
+      " price  price price price ";
+  }
+
+  .choose-us-content{
+    max-width: 90%;
+    margin: 0 auto;
+}
 }
 
 /* Tablet device view responsive */

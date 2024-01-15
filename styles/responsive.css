@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+  nav > ul {
+    display: none;
+  }
+  .bars-icon {
+    display: block;
+    font-size: 20px;
+  }
+}
+
+
+/* Tablet device view responsive */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    nav > ul {
+        display: none;
+      }
+      .bars-icon {
+        display: block;
+        font-size: 20px;
+      }
+}

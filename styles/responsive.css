@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-  /* nav section */
+  /* ---------nav section-------- */
   nav > ul {
     display: none;
   }
@@ -7,7 +7,7 @@
     display: block;
     font-size: 20px;
   }
-  /* banner */
+  /* -------banner--------- */
   .banner {
     padding-bottom: 30px;
   }
@@ -19,17 +19,18 @@
     margin-top: 38px;
   }
   .search-btn {
-    height: 39px;
+    height: 52px;
   }
-  /* popular-tour section */
-  .popular-tour {
+  /* -------popular-tour section------- */
+  .popular-tour, 
+  .newsletter {
     flex-direction: column;
   }
-  .popular-tour-img img {
+  .popular-tour-img img, .newsletter-img img {
     width: 100%;
   }
 
-  /* choose us section */
+  /* -------choose us section-------- */
   .choose-us {
     grid-template-areas:
       " hotel  hotel  hotel hotel "
@@ -43,9 +44,9 @@
 }
 }
 
-/* Tablet device view responsive */
+/* -------------Tablet device view responsive------------- */
 @media screen and (min-width: 601px) and (max-width: 992px) {
-  /* nav section */
+  /* -------nav section------ */
   nav > ul {
     display: none;
   }
@@ -53,7 +54,7 @@
     display: block;
     font-size: 20px;
   }
-  /* banner section */
+  /* -----------banner section------- */
   .banner {
     padding-bottom: 30px;
   }
@@ -62,13 +63,16 @@
     margin-top: 38px;
   }
   .search-btn {
-    height: 39px;
+    height: 52px;
   }
-  /* popular-tour section */
-  .popular-tour {
+  /* --------popular-tour section------ */
+  .popular-tour, 
+  .newsletter {
     flex-direction: column;
   }
-  .popular-tour-img img {
+  .popular-tour-img img,
+  .newsletter-img img {
     width: 100%;
   }
+  
 }

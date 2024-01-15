@@ -37,6 +37,11 @@ a {
   font-weight: 400;
   line-height: 26px;
 }
+.second-section-title {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 800;
+}
 
 /* Nav section styles starts */
 nav {
@@ -217,13 +222,7 @@ select {
 .card-3 img {
   width: 64px;
 }
-.card-1 h4,
-.card-2 h4,
-.card-3 h4 {
-  color: var(--primary-color);
-  font-size: 20px;
-  font-weight: 800;
-}
+
 .choose-us {
   display: grid;
   grid-template-areas:
@@ -232,3 +231,52 @@ select {
   gap: 30px;
   margin-top: 60px;
 }
+
+/* Newsletter styles */
+.newsletter {
+  display: flex;
+  margin: 90px 0;
+  gap: 24px;
+}
+.newsletter-field {
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid var(--main-color);
+  background-color: var(--secondary-color);
+}
+.newsletter-field p {
+  padding-bottom: 24px;
+  border-bottom: 2px solid rgba(19, 19, 24, 0.05);
+}
+.newsletter-form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.newsletter-form  input, button {
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  padding: 16px 20px;
+}
+.newsletter-field h4{
+    margin-top: 0;
+}
+.newsletter-form .enter-name{
+    margin: 15px 0;
+}
+.subscribe{
+    margin-top: 20px;
+}
+
+.newsletter-img img{
+    width: fit-content;
+}
+/* .save-up{
+    width: 324px;
+    height: 120px;
+    background-color: var(--main-color);
+    border-radius: 16px;
+    position: absolute;
+    top: -120px;
+    z-index: -1;
+} */

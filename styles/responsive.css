@@ -7,6 +7,8 @@
     display: block;
     font-size: 20px;
   }
+
+
   /* -------banner--------- */
   .banner {
     padding-bottom: 30px;
@@ -21,6 +23,8 @@
   .search-btn {
     height: 52px;
   }
+
+
   /* -------popular-tour section------- */
   .popular-tour,
   .newsletter {
@@ -42,8 +46,23 @@
     max-width: 90%;
     margin: 0 auto;
   }
-  /* ----footer styles----- */
 
+
+  /* ----newsletter styles---- */
+  #save-up {
+    width: 214px;
+    height: 80px;
+    bottom: 50px;
+  }
+  #save-up h5 {
+    font-size: 15px;
+  }
+  #save-up h4 {
+    font-size: 21px;
+  }
+
+
+  /* ----footer styles----- */
   .footer-info{
     width: 85%;
 }
@@ -51,6 +70,8 @@
 
 /* -------------Tablet device view responsive------------- */
 @media screen and (min-width: 601px) and (max-width: 992px) {
+
+
   /* -------nav section------ */
   nav > ul {
     display: none;
@@ -59,6 +80,7 @@
     display: block;
     font-size: 20px;
   }
+
   /* -----------banner section------- */
   .banner {
     padding-bottom: 30px;
@@ -70,6 +92,8 @@
   .search-btn {
     height: 52px;
   }
+
+
   /* --------popular-tour section------ */
   .popular-tour,
   .newsletter {

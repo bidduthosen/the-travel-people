@@ -249,58 +249,79 @@ select {
   border-bottom: 2px solid rgba(19, 19, 24, 0.05);
 }
 .newsletter-form {
-    display: grid;
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
 }
-.newsletter-form  input, button {
+.newsletter-form input,
+button {
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
   border: none;
   padding: 16px 20px;
 }
-.newsletter-field h4{
-    margin-top: 0;
+.newsletter-field h4 {
+  margin-top: 0;
 }
-.newsletter-form .enter-name{
-    margin: 15px 0;
+.newsletter-form .enter-name {
+  margin: 15px 0;
 }
-.subscribe{
-    margin-top: 20px;
+.subscribe {
+  margin-top: 20px;
 }
-
-.newsletter-img img{
-    width: fit-content;
+.newsletter {
+  position: relative;
 }
-/* .save-up{
-    width: 324px;
-    height: 120px;
-    background-color: var(--main-color);
-    border-radius: 16px;
-    position: absolute;
-    top: -120px;
-    z-index: -1;
-} */
-
+.newsletter-img img {
+  width: fit-content;
+}
+#save-up {
+  width: 324px;
+  height: 120px;
+  background-color: var(--main-color);
+  border-radius: 16px;
+  position: absolute;
+  right: 12px;
+  bottom: 70px;
+  transform: rotate(-25deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#save-up h5 {
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 4px 0;
+  padding: 0;
+}
+#save-up h4 {
+  color: var(--secondary-color);
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
 
 /* -------footer styles------- */
-footer{
-    background: rgba(19, 19, 24, 0.05);
-    padding: 90px 0;
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  padding: 90px 0;
 }
-.footer-info{
-    width: 65%;
-    margin: 0 auto;
-    text-align: center;
+.footer-info {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
 }
-.footer-inner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.social-icons > i{
-    font-size: 24px;
-    margin: 24px 15px 45px 15px;
+.social-icons > i {
+  font-size: 24px;
+  margin: 24px 15px 45px 15px;
 }
-.copy-footer{
-    margin-top: 45px;
+.copy-footer {
+  margin-top: 45px;
 }

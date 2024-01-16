@@ -1,5 +1,6 @@
+/* ----------Media query in device responsive Mobile device--------- */
 @media screen and (max-width: 600px) {
-  /* ---------nav section-------- */
+  /* --------------nav section--------------- */
   nav > ul {
     display: none;
   }
@@ -8,7 +9,7 @@
     font-size: 20px;
   }
 
-  /* -------banner--------- */
+  /* -------------------banner-------------------- */
   .banner {
     padding-bottom: 30px;
   }
@@ -23,9 +24,10 @@
     height: 52px;
   }
 
-  /* -------popular-tour section------- */
+  /* --------------------popular-tour section---------------- */
   .popular-tour,
-  .newsletter {
+  .newsletter,
+  .tour-layouts {
     flex-direction: column;
   }
   .popular-tour-img img,
@@ -33,7 +35,25 @@
     width: 100%;
   }
 
-  /* -------choose us section-------- */
+  /* -------------------tour layout styles------------------- */
+  .tour {
+    margin: 90px 0;
+    padding: 0;
+  }
+  .website-page,
+  .location-img,
+  .gallery {
+    display: none;
+  }
+  .google-maps {
+    display: block;
+    border-radius: 16px;
+  }
+  .tour-layout-info {
+    width: 90%;
+  }
+
+  /* --------------------choose us section---------------------- */
   .choose-us {
     grid-template-areas:
       " hotel  hotel  hotel hotel "
@@ -45,7 +65,7 @@
     margin: 0 auto;
   }
 
-  /* ----newsletter styles---- */
+  /* ------------------------newsletter styles------------------ */
   #save-up {
     width: 214px;
     height: 80px;
@@ -58,11 +78,12 @@
     font-size: 21px;
   }
 
-  /* ----footer styles----- */
+  /* --------------------footer styles----------------------------- */
   .footer-info {
     width: 85%;
   }
-  /* Choose Your Destination */
+
+  /* ------------------------------Choose Your Destination------------------------- */
   .destination-1,
   .destination-2,
   .destination-3 {
@@ -86,10 +107,9 @@
   }
 }
 
-
-/* -------------Tablet device view responsive------------- */
+/* --------------------Tablet device view responsive-------------------------- */
 @media screen and (min-width: 601px) and (max-width: 992px) {
-  /* -------nav section------ */
+  /* ------------------------nav section----------------------- */
   nav > ul {
     display: none;
   }
@@ -98,7 +118,7 @@
     font-size: 20px;
   }
 
-  /* -----------banner section------- */
+  /* ------------------------banner section------------------------- */
   .banner {
     padding-bottom: 30px;
   }
@@ -110,17 +130,35 @@
     height: 52px;
   }
 
-  /* --------popular-tour section------ */
+  /* -----------------------popular-tour section-------------------- */
   .popular-tour,
-  .newsletter {
+  .newsletter,
+  .tour-layouts {
     flex-direction: column;
   }
   .popular-tour-img img,
   .newsletter-img img {
     width: 100%;
   }
+  /* --------------------tour layout styles------------------------- */
+  .tour {
+    margin: 90px 0;
+    padding: 0;
+  }
+  .website-page,
+  .location-img,
+  .gallery {
+    display: none;
+  }
+  .google-maps {
+    display: block;
+    border-radius: 16px;
+  }
+  .tour-layout-info {
+    width: 90%;
+  }
 
-  /* Choose Your Destination */
+  /* ----------------------Choose Your Destination------------------------- */
   .destination-1,
   .destination-2,
   .destination-3 {

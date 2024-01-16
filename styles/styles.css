@@ -149,13 +149,11 @@ li:first-child a {
 }
 .banner-field input,
 select {
-  padding: 15px;
+  padding: 13px;
   border: none;
   background-color: var(--secondary-color);
   border-radius: 8px;
   color: #424247;
-  font-size: 16px;
-  font-weight: 700;
 }
 .search-btn {
   display: flex;
@@ -232,30 +230,108 @@ select {
   margin-top: 60px;
 }
 
+/* ------Deals & Discounts styles------- */
+#deals-discount {
+  margin: 90px 0;
+}
+.discounts-info {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.discounts-info p {
+  margin-bottom: 50px;
+}
+.discounts-1, .discounts-3 {
+  background-image: url(../Images/Group\ 39.png);
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.discounts-2{
+  background-image: url(../Images/Group\ 40.png);
+  min-height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.discounts-container {
+  width: 40%;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0 34px;
+  padding: 50px;
+}
+.discounts-content h1 {
+  color: var(--primary-color);
+  font-size: 24px;
+  font-weight: 800;
+}
+.discounts-content h6 {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 0 15px 0;
+}
+.discount-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.discount-inner div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-right: 15px;
+}
+.discount-inner div i {
+  color: var(--main-color);
+  font-size: 16px;
+}
+.discount-inner div h5 {
+  margin: 0 10px;
+  color: var(--greeting-color);
+  font-size: 16px;
+}
+.see-all-btn{
+  text-align: center;
+  margin: 62px 0;
+}
+
 
 /* ------tour layout styles------- */
-.tour{
+.tour {
   margin: 90px 0;
   padding: 30px 0 120px 0;
 }
-.tour-layouts{
+.tour-layouts {
   display: flex;
   gap: 24px;
-
 }
-.tour-layout-content{
+.tour-layout-content {
   width: 100%;
   position: relative;
   z-index: 1;
 }
-.gallery{
+.gallery {
   height: 235px;
   width: 485px;
   margin-left: 80px;
   border-radius: 16px;
   border: 2px solid rgba(233, 68, 68, 0.2);
 }
-.location-img{
+.location-img {
   position: absolute;
   top: 80px;
   right: 25px;
@@ -265,7 +341,7 @@ select {
   border-radius: 16px;
   border: 2px solid rgba(233, 68, 68, 0.2);
 }
-.website-page{
+.website-page {
   position: absolute;
   top: 120px;
   left: 13px;
@@ -275,17 +351,16 @@ select {
   border-radius: 16px;
   border: 2px solid rgba(233, 68, 68, 0.2);
 }
-.google-maps{
+.google-maps {
   display: none;
 }
-.tour-layout-info{
+.tour-layout-info {
   width: 70%;
   border-radius: 16px;
   border: 1px solid rgba(41, 206, 246, 0.2);
   background: rgba(41, 206, 246, 0.05);
   padding: 32px;
 }
-
 
 /* ------Choose Your Destination------- */
 
@@ -387,7 +462,7 @@ select {
 .North-america,
 .Kashmir,
 .Maldives,
-.Bandarban{
+.Bandarban {
   color: var(--secondary-color);
   font-size: 28px;
   font-weight: 800;

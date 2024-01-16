@@ -65,6 +65,26 @@
     margin: 0 auto;
   }
 
+  /* ----------Deals & Discounts styles------- */
+.discounts-info{
+  max-width: 90%;
+}
+.discounts-container {
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+}
+.discount-inner{
+  grid-template-columns: repeat(2, 1fr);
+}
+.discount-inner div {
+  padding-bottom: 15px;
+}
+.see-all-btn{
+  display: none;
+}
+
+
   /* ------------------------newsletter styles------------------ */
   #save-up {
     width: 214px;
@@ -140,6 +160,18 @@
   .newsletter-img img {
     width: 100%;
   }
+  /* ----------Deals & Discounts styles------- */
+.discounts-container {
+  width: 80%;
+  margin: 10px;
+  padding: 15px;
+}
+.discount-inner{
+  grid-template-columns: repeat(2, 1fr);
+}
+.discount-inner div {
+  padding-bottom: 15px;
+}
   /* --------------------tour layout styles------------------------- */
   .tour {
     margin: 90px 0;

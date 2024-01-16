@@ -362,6 +362,24 @@ select {
   padding: 32px;
 }
 
+/* ------A Simple Perfect styles------- */
+.simple-perfect{
+  display: flex;
+  margin: 120px 0;
+  gap: 50px;
+}
+.simple-perfect-content{
+  width: 60%;
+}
+.mountent-link iframe{
+  width: 500px;
+  height: 400px;
+  border-radius: 16px;
+}
+.perfect-list li{
+  font-weight: 700;
+}
+
 /* ------Choose Your Destination------- */
 
 .choose-your-destination {

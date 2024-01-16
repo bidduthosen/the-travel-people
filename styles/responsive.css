@@ -66,24 +66,33 @@
   }
 
   /* ----------Deals & Discounts styles------- */
-.discounts-info{
-  max-width: 90%;
-}
-.discounts-container {
-  width: 90%;
-  margin: 10px;
-  padding: 10px;
-}
-.discount-inner{
-  grid-template-columns: repeat(2, 1fr);
-}
-.discount-inner div {
-  padding-bottom: 15px;
-}
-.see-all-btn{
-  display: none;
-}
-
+  .discounts-info {
+    max-width: 90%;
+  }
+  .discounts-container {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+  }
+  .discount-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .discount-inner div {
+    padding-bottom: 15px;
+  }
+  .see-all-btn {
+    display: none;
+  }
+   /* ----------------perfect styles-------------------------- */
+   .simple-perfect-content{
+    width: 95%;
+  }
+  .simple-perfect{
+    flex-direction: column;
+  }
+  .mountent-link iframe{
+    width: 100%;
+  }
 
   /* ------------------------newsletter styles------------------ */
   #save-up {
@@ -96,11 +105,6 @@
   }
   #save-up h4 {
     font-size: 21px;
-  }
-
-  /* --------------------footer styles----------------------------- */
-  .footer-info {
-    width: 85%;
   }
 
   /* ------------------------------Choose Your Destination------------------------- */
@@ -125,6 +129,12 @@
     top: 40%;
     left: 40%;
   }
+  
+  /* --------------------footer styles----------------------------- */
+  .footer-info {
+    width: 85%;
+  }
+
 }
 
 /* --------------------Tablet device view responsive-------------------------- */
@@ -161,17 +171,17 @@
     width: 100%;
   }
   /* ----------Deals & Discounts styles------- */
-.discounts-container {
-  width: 80%;
-  margin: 10px;
-  padding: 15px;
-}
-.discount-inner{
-  grid-template-columns: repeat(2, 1fr);
-}
-.discount-inner div {
-  padding-bottom: 15px;
-}
+  .discounts-container {
+    width: 80%;
+    margin: 10px;
+    padding: 15px;
+  }
+  .discount-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .discount-inner div {
+    padding-bottom: 15px;
+  }
   /* --------------------tour layout styles------------------------- */
   .tour {
     margin: 90px 0;
@@ -189,7 +199,16 @@
   .tour-layout-info {
     width: 90%;
   }
-
+  /* ----------------perfect styles-------------------------- */
+  .simple-perfect-content{
+    width: 95%;
+  }
+  .simple-perfect{
+    flex-direction: column;
+  }
+  .mountent-link iframe{
+    width: 100%;
+  }
   /* ----------------------Choose Your Destination------------------------- */
   .destination-1,
   .destination-2,
